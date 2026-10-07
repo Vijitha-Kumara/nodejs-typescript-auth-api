@@ -4,6 +4,5 @@ dotenv.config({ quiet: true });
 const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
- console.log(`TODO App listening at http://localhost:${PORT}`);
+  console.log(`Node auth Api http://localhost:${PORT}`);
 });
-

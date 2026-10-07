@@ -1,0 +1,36 @@
+{
+  "name": "nodejs-typescript-auth-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "dev": "nodemon --watch src --ext ts --exec \"tsc && node ./dist/server.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vijitha-Kumara/nodejs-typescript-auth-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vijitha-Kumara/nodejs-typescript-auth-api/issues"
+  },
+  "homepage": "https://github.com/Vijitha-Kumara/nodejs-typescript-auth-api#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.4",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.96",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1"
+  }
+}

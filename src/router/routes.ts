@@ -9,6 +9,15 @@ export class Routes {
       this.user_controller.insert(req, res);
     });
 
+    app.post("/api/userSinUp", (req: Request, res: Response) => {
+      this.user_controller.createUser(req, res);
+    });
+
+     app.post("/api/login", (req: Request, res: Response) => {
+      this.user_controller.login(req, res);
+    });
+
+
     app.get("/api/user", (req: Request, res: Response) => {
       this.user_controller.getAll(req, res);
     });
